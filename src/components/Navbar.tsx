@@ -1,5 +1,4 @@
 import { navLinks } from '../utils/constants';
-import { Link } from "react-scroll";
 import Theme from './Theme';
 import { useState } from 'react';
 
@@ -55,13 +54,11 @@ export default function Navbar({clicked}: {clicked: string}) {
                     {
                     navLinks.map((nav, index) => (
                         <li key={nav.id}>
-                            <Link 
-                                to={nav.id} 
-                                smooth
-                                duration={500}
+                            <a 
+                                href={nav.id == "" ? '/' : nav.id}
                                 className={`cursor-pointer dark:text-gray-300 text-[16px] hover:text-violet-600 transition-all ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'} dark:text-white`}>
                                 {nav.name}
-                            </Link>
+                            </a>
                         </li>
                     ))
                     }
