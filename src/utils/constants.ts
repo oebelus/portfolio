@@ -29,7 +29,7 @@ export const projects = [
     {
         id: "vm",
         name: "Stack-Based Virtual Machine",
-        description: "The Stack-Based Virtual Machine (SVM) is a custom-built virtual machine created using C#. It's designed to handle various tasks like arithmetic operations, manipulating stacks, controlling flow, and managing memory.",
+        description: "The Stack-Based Virtual Machine (SVM) is a Turing Complete virtual machine created using C#. It's designed to handle various tasks like arithmetic operations, manipulating stacks, controlling flow, and managing memory.",
         github: "https://github.com/oebelus/stackVM",
         technologies: ["C#"],
         features: ["Bytecode Interpretation: Executes bytecode instructions.", "Mnemonics Execution: Human-readable mnemonics can be converted to bytecode for execution.", "Control Flow: Supports jump and conditional jump instructions.", "Memory Operations: Load and store values in memory."]
