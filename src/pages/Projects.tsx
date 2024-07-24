@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Project from "../components/Project";
 import { projects } from "../utils/constants";
 import styles from "../utils/style";
+import { Helmet } from "react-helmet-async";
 
 const languages = ["All", "C", "C#", "Python", "Java", "JavaScript", "TypeScript"]; // Add languages as needed
 
@@ -15,9 +16,12 @@ export default function Projects() {
 
   return (
     <div className='dark:bg-[#2D2E32] min-h-screen'>
+      <Helmet>
+        <title>projects;</title>
+      </Helmet>
       <div className={`${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          <Navbar clicked="projects." />
+          <Navbar clicked="projects;" />
         </div>
       </div>
 

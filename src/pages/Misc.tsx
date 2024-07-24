@@ -1,12 +1,16 @@
+import { Helmet } from "react-helmet-async";
 import Navbar from "../components/Navbar";
 import styles from "../utils/style";
 
 export default function Misc() {
     return (
         <div className='dark:bg-[#2D2E32] min-h-screen'>
+            <Helmet>
+                <title>projects;</title>
+            </Helmet>
             <div className={`${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
-                    <Navbar clicked="misc." />
+                    <Navbar clicked="misc;" />
                 </div>
             </div>
 
