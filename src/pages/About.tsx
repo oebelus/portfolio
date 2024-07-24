@@ -9,7 +9,7 @@ export default function About() {
   return (
     <div className='dark:bg-[#2D2E32] min-h-screen'>
       <Helmet>
-        <title>about_me: Imane;</title>
+        <title>whoami: Imane;</title>
       </Helmet>
       <div className={`${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
