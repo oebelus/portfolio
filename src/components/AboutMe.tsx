@@ -37,15 +37,17 @@ export default function AboutMe() {
                 </ul>
                 
                 <div className="mt-8">
-                <p className="pl-6 text-lg dark:text-gray-300"><span className="text-violet-600">|</span> What am I able to build?</p>
-                <ul className="pl-20 mt-4 space-y-2 text-lg dark:text-gray-300">
-                    {
-                        builds.map((build, key) => (
-                            <li key={key}><span className="text-violet-600">{'>'} </span>{build}</li>       
-                        ))
-                    }
-                </ul>
+                    <p className="pl-6 text-lg dark:text-gray-300"><span className="text-violet-600">|</span> What am I able to build?</p>
+                    <ul className="pl-20 mt-4 space-y-2 text-lg dark:text-gray-300">
+                        {
+                            builds.map((build, key) => (
+                                <li key={key}><span className="text-violet-600">{'>'} </span>{build}</li>       
+                            ))
+                        }
+                    </ul>
                 </div>
+
+                <p className="pl-6 mt-8 text-lg dark:text-gray-300"><span className="text-violet-600">| </span>Currently an incoming SWE Fellow @ Headstater AI.</p>
             </div>
         </div>
     )

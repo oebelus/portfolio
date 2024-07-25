@@ -119,12 +119,13 @@ export const projects = [
             "JSON Storage: Saves race data to JSON files for later use."
         ],
         technologies: [
+            "Python",
             "Discord.py",
             "BeautifulSoup",
             "Selenium",
             "Requests",
             "JSON",
-            "Python-dotenv"
+            "Python-dotenv",
         ]
     },
     {
