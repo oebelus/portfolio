@@ -16,29 +16,28 @@ export default function AboutMe() {
                     <span className="text-3xl font-semibold flex-shrink mx-4 text-gray-400"><span className="text-violet-600">{`>`}</span> About Me:</span>
                     <div className="flex-grow border-t border-gray-400"></div>
                 </div>
-                <p className="pl-6 text-lg dark:text-gray-300">
+                <p className="pl-0 md:pl-6 text-lg dark:text-gray-300">
                     <span className="text-violet-600">| </span>I am
                     <span className="text-violet-400"> {getDate().year}</span> years, 
                     <span className="text-violet-400"> {getDate().month}</span> months & 
                     <span className="text-violet-400"> {getDate().day}</span> days old.
                 </p>
                 <br/>
-                <p className="pl-6 text-lg dark:text-gray-300"><span className="text-violet-600">| </span>I enjoy problem solving and learning programming concepts.</p>
+                <p className="pl-0 md:pl-6 text-lg dark:text-gray-300"><span className="text-violet-600">| </span>I enjoy problem solving and learning programming concepts.</p>
                 <br/>
-                <p className="pl-6 text-lg dark:text-gray-300"><span className="text-violet-600">| </span>If I am not coding some side project with music blasting on my ears, I will be definitely:</p><br/>
+                <p className="pl-0 md:pl-6 text-lg dark:text-gray-300"><span className="text-violet-600">| </span>If I am not coding some side project with music blasting on my ears, I will be definitely:</p><br/>
             
-                <ul className="pl-20 space-y-2 text-lg dark:text-gray-300">
+                <ul className="pl-10 md:pl-20 space-y-2 text-lg dark:text-gray-300">
                     {
                         hobbies.map((hobby, key) => (
                             <li key={key}><span className="text-violet-600">{'>'} </span>{hobby}</li>       
                         ))
                     }
-                    <li><span className="text-violet-600">{'>'}</span> Playing a game.</li>
                 </ul>
                 
                 <div className="mt-8">
-                    <p className="pl-6 text-lg dark:text-gray-300"><span className="text-violet-600">|</span> What am I able to build?</p>
-                    <ul className="pl-20 mt-4 space-y-2 text-lg dark:text-gray-300">
+                    <p className="pl-0 md:pl-6 text-lg dark:text-gray-300"><span className="text-violet-600">|</span> What am I able to build?</p>
+                    <ul className="pl-10 md:pl-20 mt-4 space-y-2 text-lg dark:text-gray-300">
                         {
                             builds.map((build, key) => (
                                 <li key={key}><span className="text-violet-600">{'>'} </span>{build}</li>       
@@ -47,7 +46,7 @@ export default function AboutMe() {
                     </ul>
                 </div>
 
-                <p className="pl-6 mt-8 text-lg dark:text-gray-300"><span className="text-violet-600">| </span>Currently an incoming SWE Fellow @ Headstater AI.</p>
+                <p className="pl-0 md:pl-6 mt-8 text-lg dark:text-gray-300"><span className="text-violet-600">| </span>Currently an incoming SWE Fellow @ Headstater AI.</p>
             </div>
         </div>
     )
