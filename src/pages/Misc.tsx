@@ -17,7 +17,7 @@ export default function Misc() {
             <div className={`${styles.flexStart} w-full`}>
                 <div className={`${styles.boxWidth}`}>
                     <div className={`${styles.boxWidth} mt-5 p-8 dark:text-gray-300`}>
-                        <h3 className="text-2xl">Nothing to show at the moments</h3>
+                        <h3 className="text-2xl">Nothing to show at the moment...</h3>
                     </div>
                 </div>
             </div>
