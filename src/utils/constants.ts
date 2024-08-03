@@ -255,6 +255,6 @@ export const contacts = [
     },
 ]
 
-export const builds = ["Dynamic and responsive websites, and full-stack applications (MERN).", "Custom solutions using various programming languages.", "Implement 3D visualizations with Three.js.", "Design and build command-line tools and utilities."]
+export const builds = ["Dynamic and responsive websites, and full-stack applications (MERN, Spring/React).", "Custom solutions using various programming languages.", "3D visualizations with Three.js.", "Command-line tools and utilities."]
 
 export const hobbies = ["Playing a game.", "Learning About Some Random Topic.", 'Watching: ["Movie", "Series", "Anime", "YouTube"].', 'Reading: ["Manga", "Comics", "A Book"].', "Drawing."]
