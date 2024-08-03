@@ -74,7 +74,7 @@ export const projects = [
         demo: "https://oebelus.github.io/pongTs/"
     },
     {
-        id: "http-server",
+        id: "http_server",
         name: "HTTP Server in Java",
         description: "A custom-built HTTP server implemented in Java. This server handles incoming HTTP requests and provides responses based on the request type and URL.",
         github: "https://github.com/oebelus/http-server-java",
@@ -88,7 +88,7 @@ export const projects = [
         technologies: ["Java", "Java Sockets", "HTTP Protocol"]
     },
     {
-        id: "express-app",
+        id: "express_app",
         name: "Node.js API",
         description: "A TypeScript-based Express application with built-in middleware for security, logging, and compression. It is designed for scalability and ease of integration with various controllers.",
         github: "https://github.com/oebelus/node-api",
@@ -108,7 +108,7 @@ export const projects = [
         ]
     },
     {
-        id: "discord-bot",
+        id: "discord_bot",
         name: "Formula Discord Bot",
         description: "A Discord bot built with Python that interacts with users and performs web scraping to retrieve and send information about Formula E and Formula One races.",
         github: "https://github.com/oebelus/formula_bot",
@@ -123,13 +123,10 @@ export const projects = [
             "Discord.py",
             "BeautifulSoup",
             "Selenium",
-            "Requests",
-            "JSON",
-            "Python-dotenv",
         ]
     },
     {
-        id: "file-organizer",
+        id: "file_organizer",
         name: "File Organizer",
         description: "A Python-based file organizer that helps manage and sort files into directories based on user commands.",
         github: "https://github.com/oebelus/files_manager",
@@ -144,7 +141,7 @@ export const projects = [
         ]
     },
     {
-        id: "solar-system",
+        id: "solar_system",
         name: "Solar System Simulator",
         description: "A Three.js-based solar system simulation showcasing the planets and their orbits. ",
         github: "https://github.com/oebelus/solarSystem",
@@ -160,7 +157,7 @@ export const projects = [
         ]
     },
     {
-        id: "the-dictionary",
+        id: "the_dictionary",
         name: "The Dictionary",
         description: "A minimalist app that allows you to store words and their definitions in one organized place. It offers login and registration, CRUD functionality, and is responsive for various devices.",
         github: "https://github.com/oebelus/dictionaryApp",
@@ -172,7 +169,7 @@ export const projects = [
         technologies: [ "React", "JavaScript", "HTML", "CSS", "Bootstrap", "Express", "Cors", "Nodemon", "Sequelize", "MySQL" ],
     },
     {
-        id: "movies-fullstack-website",
+        id: "movies_fullstack_website",
         name: "Movies' Website",
         description: "A full-stack website to manage movie lists, including 'seen', 'to watch', and 'top 100' movies.",
         github: "https://github.com/oebelus/moviesTs",
@@ -186,7 +183,7 @@ export const projects = [
         ],
     },
     {
-        id: "simple-shell",
+        id: "simple_shell",
         name: "Simple Shell",
         description: "A basic command-line interface that reads user input and executes commands.",
         github: "https://github.com/oebelus/simpleShell",
@@ -199,7 +196,7 @@ export const projects = [
         ],
     },
     {
-        id: "mini-games",
+        id: "mini_games",
         name: "Mini Games",
         description: "A collection of simple games implemented in C using the ncurses library. It includes classic games like Snake and a retro racing game.",
         github: "https://github.com/oebelus/miniGames",
@@ -211,6 +208,22 @@ export const projects = [
             "C",
             "ncurses"
         ],
+    },
+    {
+        id: "pantry",
+        name: "Inventory Management Application",
+        description: "Meet the Inventory Management App, your go-to tool for keeping your product inventory in check! With an easy-to-use interface, you can track, filter, and organize your products effortlessly.",
+        github: "https://github.com/oebelus/miniGames",
+        features: [
+            "Product Management: Add, update, and delete products.",
+            "Inventory Tracking: Monitor product counts and expiration dates.",
+            "Category Filtering: Filter products by categories with case-insensitive search.",
+            "Fully responsive and compatible with all screen sizes!"
+        ],
+        technologies: [
+            "React", "TypeScript", "Tailwind CSS", "Java", "Spring Boot", "Hibernate", "MySQL"
+        ],
+        demo: ["https://youtu.be/mrS1Cxl2RDE"]
     }
 ]
 
