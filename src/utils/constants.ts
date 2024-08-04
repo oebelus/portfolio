@@ -223,7 +223,7 @@ export const projects = [
         technologies: [
             "React", "TypeScript", "Tailwind CSS", "Java", "Spring Boot", "Hibernate", "MySQL"
         ],
-        demo: ["https://youtu.be/mrS1Cxl2RDE"]
+        demo: "https://youtu.be/mrS1Cxl2RDE"
     }
 ]
 
