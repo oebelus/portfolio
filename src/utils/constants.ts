@@ -231,11 +231,11 @@ export const projects = [
         description: "AssistantAi is an AI-powered customer assistant chatbot built with Java and Spring Boot. Designed to provide intelligent and adaptive customer service.",
         github: "https://github.com/oebelus/AssistantAi",
         features: [
-            "Natural Language Processing (NLP): Understands and responds to customer queries in natural language, simulating a human-like conversation.",
-            "Contextual Awareness: Maintains context within conversations, ensuring that responses are relevant and appropriate to the user's query.",
-            "Strict Information Provision: The chatbot is designed to only provide information and will clearly communicate its limitations.",
-            "Integration Capabilities: Can be integrated with various platforms such as websites, mobile apps, and CRM systems.",
-            "Customizable and Scalable: Easily customized to meet specific business needs and scalable to handle growing customer interactions."
+            "Natural Language Processing (NLP): Understands and responds to customer queries in natural language.",
+            "Contextual Awareness.",
+            "Strict Information Provision within limitations.",
+            "Can be integrated with various platforms such as websites, mobile apps, and CRM systems.",
+            "Customizable and Scalable."
         ],
         technologies: [
              "Java", "Spring Boot", "MySQL", "Tailwind CSS", "Vanilla TypeScript", "OpenAI GPT", "Groq API"
