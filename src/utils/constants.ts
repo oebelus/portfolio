@@ -157,18 +157,6 @@ export const projects = [
         ]
     },
     {
-        id: "the_dictionary",
-        name: "The Dictionary",
-        description: "A minimalist app that allows you to store words and their definitions in one organized place. It offers login and registration, CRUD functionality, and is responsive for various devices.",
-        github: "https://github.com/oebelus/dictionaryApp",
-        features: [
-            "Login and Register: User authentication to manage personal word lists.",
-            "CRUD Functionality: Create, Read, Update, and Delete word entries and their definitions.",
-            "Responsive Design: Works on various devices and screen sizes for accessibility."
-        ],
-        technologies: [ "React", "JavaScript", "HTML", "CSS", "Bootstrap", "Express", "Cors", "Nodemon", "Sequelize", "MySQL" ],
-    },
-    {
         id: "movies_fullstack_website",
         name: "Movies' Website",
         description: "A full-stack website to manage movie lists, including 'seen', 'to watch', and 'top 100' movies.",
