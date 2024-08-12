@@ -213,7 +213,7 @@ export const projects = [
         id: "pantry",
         name: "Inventory Management Application",
         description: "Meet the Inventory Management App, your go-to tool for keeping your product inventory in check! With an easy-to-use interface, you can track, filter, and organize your products effortlessly.",
-        github: "https://github.com/oebelus/miniGames",
+        github: "https://github.com/oebelus/inventoryManager",
         features: [
             "Product Management: Add, update, and delete products.",
             "Inventory Tracking: Monitor product counts and expiration dates.",
@@ -224,6 +224,22 @@ export const projects = [
             "React", "TypeScript", "Tailwind CSS", "Java", "Spring Boot", "Hibernate", "MySQL"
         ],
         demo: "https://youtu.be/mrS1Cxl2RDE"
+    },
+    {
+        id: "assistantai",
+        name: "AI Customer Assistant Bot",
+        description: "AssistantAi is an AI-powered customer assistant chatbot built with Java and Spring Boot. Designed to provide intelligent and adaptive customer service.",
+        github: "https://github.com/oebelus/AssistantAi",
+        features: [
+            "Natural Language Processing (NLP): Understands and responds to customer queries in natural language, simulating a human-like conversation.",
+            "Contextual Awareness: Maintains context within conversations, ensuring that responses are relevant and appropriate to the user's query.",
+            "Strict Information Provision: The chatbot is designed to only provide information and will clearly communicate its limitations.",
+            "Integration Capabilities: Can be integrated with various platforms such as websites, mobile apps, and CRM systems.",
+            "Customizable and Scalable: Easily customized to meet specific business needs and scalable to handle growing customer interactions."
+        ],
+        technologies: [
+             "Java", "Spring Boot", "MySQL", "Tailwind CSS", "Vanilla TypeScript", "OpenAI GPT", "Groq API"
+        ],
     }
 ]
 
