@@ -240,6 +240,22 @@ export const projects = [
         technologies: [
              "Java", "Spring Boot", "MySQL", "Tailwind CSS", "Vanilla TypeScript", "OpenAI GPT", "Groq API"
         ],
+    },
+    {
+        id: "rubiks",
+        name: "Rubik's Cube",
+        description: "An interactive Three.js Rubik's cube.",
+        github: "https://github.com/oebelus/rubik-s",
+        features: [
+            "Dynamic grid of colored cubes.",
+            "Support for dragging and rotating cubes.",
+            "Interaction through mouse events.",
+            "Real-time updates and animations.",
+            "Control over rotation direction and angle."
+        ],
+        technologies: [
+             "Three.js", "TypeScript", "TWEEN.JS"
+        ],
     }
 ]
 
