@@ -1,3 +1,5 @@
+import { Post } from "../types/post"
+
 export const navLinks = [
     {
         id: "",
@@ -273,8 +275,24 @@ export const contacts = [
         name: "HackerRank",
         link: "https://www.hackerrank.com/profile/oebelus" 
     },
+    {
+        id: "email",
+        name: "Email",
+        link: "mailto:imaneelfadilelidrissi@gmail.com" 
+    },
 ]
 
 export const builds = ["Dynamic and responsive websites, and full-stack applications (MERN, Spring/React).", "Custom solutions using various programming languages.", "3D visualizations with Three.js.", "Command-line tools and utilities."]
 
 export const hobbies = ["Playing a game.", "Learning About Some Random Topic.", 'Watching: ["Movie", "Series", "Anime", "YouTube"].', 'Reading: ["Manga", "Comics", "A Book"].', "Drawing."]
+
+export const posts: Post[] = [
+    {
+        id: "beans",
+        title: "An Introduction to Beans in Spring",
+        date: "21/08/2024",
+        category: "Spring",
+        description: "A small friendly introduction to Beans and IoC in Spring",
+        content: "Beans"
+    },
+];

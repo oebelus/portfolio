@@ -28,8 +28,8 @@ export default function Projects() {
       <div className={`${styles.flexStart} w-full`}>
         <div className={`${styles.boxWidth}`}>
           <div className={`${styles.boxWidth} mt-5 p-8 dark:text-gray-300`}>
-            <h3 className="text-2xl dark:text-gray-300 text-black mb-5">
-              {`|> `}I mostly learn through project-based learning. This hands-on approach helps me understand concepts better and keeps me motivated.
+            <h3 className="text-xl dark:text-gray-300 text-black mb-5">
+              {`-> `}I mostly learn through project-based learning. This approach helps me understand concepts better and keeps me motivated to build more.
             </h3>
             <div className="relative flex py-5 items-center">
               <div className="flex-grow border-t border-gray-400"></div>

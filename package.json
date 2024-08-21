@@ -13,12 +13,16 @@
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "highlight.js": "^11.10.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-fontawesome": "^1.7.1",
     "react-helmet-async": "^2.0.5",
+    "react-markdown": "^9.0.1",
     "react-router-dom": "^6.25.1",
-    "react-scroll": "^1.9.0"
+    "react-scroll": "^1.9.0",
+    "remark-gfm": "^4.0.0",
+    "remark-react": "^9.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
