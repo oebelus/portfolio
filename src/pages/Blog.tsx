@@ -25,7 +25,7 @@ export default function Blog() {
               <div className="relative flex py-5 items-center">
                 <div className="flex-grow border-t border-gray-400"></div>
                 <span className="text-3xl font-semibold flex-shrink mx-4 text-gray-400">
-                  <span className="text-violet-600">{`>`}</span> My Projects:
+                  <span className="text-violet-600">{`>`}</span> My Articles:
                 </span>
                 <div className="flex-grow border-t border-gray-400"></div>
               </div>

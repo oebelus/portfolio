@@ -1,9 +1,10 @@
 import { Helmet } from "react-helmet-async";
 import styles from "../utils/style";
-import Navbar from "../components/Navbar";
 import BlogPost from "./BlogPost";
 import { useParams } from "react-router-dom";
 import { posts } from "../utils/constants";
+import Theme from "../components/Theme";
+import GoBack from "../components/GoBack";
 
 export default function BlogPostPage() {
     const { postId } = useParams();
@@ -14,14 +15,13 @@ export default function BlogPostPage() {
     }
 
     return (
-        <div className='dark:bg-[#2D2E32] min-h-screen'>
+        <div className='dark:bg-[#2D2E32] min-h-screen overflow-hidden'>
             <Helmet>
                 <title>projects;</title>
             </Helmet>
-            <div className={`${styles.flexCenter}`}>
-                <div className={`${styles.boxWidth}`}>
-                    <Navbar clicked="misc;" />
-                </div>
+            <div className="flex justify-between relative mx-[6%] sm:mx-[8%] mt-4">
+                <GoBack />
+                <Theme />
             </div>
 
             <div className={`${styles.flexStart} w-full`}>

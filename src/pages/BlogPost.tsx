@@ -1,4 +1,5 @@
 import Beans from "../articles/Beans";
+import { formatDate } from "../utils/Date";
 
 interface BlogPostProps {
   title: string;
@@ -12,14 +13,14 @@ export default function BlogPost({ title, date, content, category }: BlogPostPro
     "Beans": <Beans />
   };
 
-  return (
-    <div>
-      <h1 className="text-4xl text-center mb-8">{title}</h1>
+    return (
+        <div>
+            <h1 className="text-4xl text-center mb-8">{title}</h1>
 
-      {record[content] || <p>No content found</p>}
-      <hr />
-      <p>Published {date}</p>
-      <p>{category}</p>
-    </div>
-  );
+            {record[content] || <p>No content found</p>}
+            <hr />
+            <p className="text-lg italic mt-4">Published: {formatDate(date)}</p>
+            <p className="text-base bg-violet-400 dark:text-zinc-800 text-white w-fit px-4 py-1 rounded-xl mt-4">{category}</p>
+        </div>
+    );
 }

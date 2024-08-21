@@ -38,7 +38,7 @@ export default function Beans() {
 
             Here is an example of code without DI: <br /><br />
 
-            <pre className="language-java rounded-md bg-gray-200 dark:bg-zinc-800 p-4">
+            <pre className="language-java rounded-md bg-gray-200 dark:bg-zinc-800 p-4 overflow-x-auto">
                 <code>
                     {`public class UserService {
 
@@ -50,7 +50,7 @@ export default function Beans() {
                 </code>
             </pre>
             <br />
-            <pre className="language-java rounded-md bg-gray-200 dark:bg-zinc-800 p-4">
+            <pre className="language-java rounded-md bg-gray-200 dark:bg-zinc-800 p-4 overflow-x-auto">
                 <code>
                     {`@RestController
 @RequestMapping("/api/users")
@@ -82,7 +82,7 @@ public class UserController {
             <h3 className="text-2xl font-sans">/ How can we fix the code above then? </h3><br />
             Let's take another look: <br />
 
-            <pre className="language-java rounded-md bg-gray-200 dark:bg-zinc-800 p-4">
+            <pre className="language-java rounded-md bg-gray-200 dark:bg-zinc-800 p-4 overflow-x-auto">
                 <code>
                     {`@Service
 public class UserService {
@@ -97,7 +97,7 @@ public class UserService {
             <br />
             What changed? I added the Bean `@Service` that implements `@Component` Bean. And thus, it will be automatically picked up and put in the application context, and I can use it wherever I want. <br /><br />
 
-            <pre className="language-java rounded-md bg-gray-200 dark:bg-zinc-800 p-4">
+            <pre className="language-java rounded-md bg-gray-200 dark:bg-zinc-800 p-4 overflow-x-auto overflow-x-auto">
                 <code>
                     {`@RestController
 @RequestMapping("/api/users")

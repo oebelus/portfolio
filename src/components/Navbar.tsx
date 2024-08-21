@@ -42,7 +42,7 @@ export default function Navbar({clicked}: {clicked: string}) {
 
             {/* Sliding Navbar */}
             <div
-                className={`${toggle ? 'translate-x-0' : 'translate-x-full'} fixed top-0 right-0 h-full w-64 bg-gradient-to-b dark:bg-[#202023] p-6 z-[99] transition-transform duration-300 ease-in-out`}>
+                className={`${toggle ? 'translate-x-0' : 'translate-x-full'} fixed top-0 right-0 h-full w-64 bg-gradient-to-b bg-violet-300 dark:bg-purple-900 p-6 z-[99] transition-transform duration-300 ease-in-out`}>
                 <div className="flex justify-between items-center mb-6">
                     <div className="cursor-pointer dark:text-gray-300" onClick={() => setToggle(false)}>
                         <span className="material-symbols-outlined text-3xl">

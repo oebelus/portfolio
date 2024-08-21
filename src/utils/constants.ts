@@ -290,7 +290,7 @@ export const posts: Post[] = [
     {
         id: "beans",
         title: "An Introduction to Beans in Spring",
-        date: "21/08/2024",
+        date: "08/21/2024",
         category: "Spring",
         description: "A small friendly introduction to Beans and IoC in Spring",
         content: "Beans"
