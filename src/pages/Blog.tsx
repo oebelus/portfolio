@@ -30,7 +30,7 @@ export default function Blog() {
                 <div className="flex-grow border-t border-gray-400"></div>
               </div>
             </div>
-            <div className={`${styles.boxWidth} border-violet-600 flex flex-col gap-2 p-6 dark:text-gray-300`}>
+            <div className={`${styles.boxWidth} border-violet-600 flex flex-col gap-4 p-6 dark:text-gray-300`}>
               {
                 posts.map((post) => (
                   <div className="flex">
