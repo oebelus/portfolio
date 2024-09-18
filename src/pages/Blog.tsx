@@ -20,7 +20,7 @@ export default function Blog() {
           <div className={`${styles.boxWidth}`}>
             <div className={`${styles.boxWidth} mt-5 p-8 dark:text-gray-300`}>
               <h3 className="text-xl dark:text-gray-300 text-black mb-5">
-                {`-> `}These are just the notes I take while I learn about a new topic, or just to have some fun (If you notice any inaccuracies in my post, please email me!).
+                <span className="text-3xl text-violet-600">{"> "}</span>These are just the notes I take while I learn about a new topic, or just to have some fun (If you notice any inaccuracies in my post, please email me!).
               </h3>
               <div className="relative flex py-4 items-center">
                 <div className="flex-grow border-t border-gray-400"></div>
@@ -34,7 +34,7 @@ export default function Blog() {
               {
                 posts.map((post) => (
                   <div className="flex">
-                    <p className="text-3xl text-violet-600 dark:text-white">{">"}</p> <BlogCard id={post.id} title={post.title} date={post.date} category={post.category} description={post.description} />
+                    <BlogCard id={post.id} title={post.title} date={post.date} category={post.category} description={post.description} />
                   </div>
                 ))
               }

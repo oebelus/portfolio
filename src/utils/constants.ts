@@ -289,7 +289,7 @@ export const hobbies = ["Playing a game.", "Learning About Some Random Topic.", 
 export const posts: Post[] = [
     {
         id: "chapterone",
-        title: "Category Theory For Programmers - Chapter 1 Solutions",
+        title: "Category Theory For Programmers: Chapter 1 Solutions",
         date: "09/18/2024",
         category: ["Category Theory", "Mathematics"],
         description: "Suggested Solutions for the first chapter of Category Theory for Programmers",
