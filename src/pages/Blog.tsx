@@ -22,7 +22,7 @@ export default function Blog() {
               <h3 className="text-xl dark:text-gray-300 text-black mb-5">
                 {`-> `}These are just the notes I take while I learn about a new topic, or just to have some fun (If you notice any inaccuracies in my post, please email me!).
               </h3>
-              <div className="relative flex py-5 items-center">
+              <div className="relative flex py-4 items-center">
                 <div className="flex-grow border-t border-gray-400"></div>
                 <span className="text-3xl font-semibold flex-shrink mx-4 text-gray-400">
                   <span className="text-violet-600">{`>`}</span> My Articles:
@@ -30,11 +30,11 @@ export default function Blog() {
                 <div className="flex-grow border-t border-gray-400"></div>
               </div>
             </div>
-            <div className={`${styles.boxWidth} border-violet-600 flex flex-col gap-8 p-8 dark:text-gray-300`}>
+            <div className={`${styles.boxWidth} border-violet-600 flex flex-col gap-2 p-6 dark:text-gray-300`}>
               {
                 posts.map((post) => (
                   <div className="flex">
-                    <p className="text-3xl">{">"}</p> <BlogCard id={post.id} title={post.title} date={post.date} category={post.category} description={post.description} />
+                    <p className="text-3xl text-violet-600 dark:text-white">{">"}</p> <BlogCard id={post.id} title={post.title} date={post.date} category={post.category} description={post.description} />
                   </div>
                 ))
               }

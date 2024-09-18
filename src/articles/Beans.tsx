@@ -1,7 +1,7 @@
 import hljs from "highlight.js/lib/core";
 import java from "highlight.js/lib/languages/java";
 
-hljs.registerLanguage("javascript", java);
+hljs.registerLanguage("java", java);
 
 export default function Beans() {
     return (
@@ -97,7 +97,7 @@ public class UserService {
             <br />
             What changed? I added the Bean `@Service` that implements `@Component` Bean. And thus, it will be automatically picked up and put in the application context, and I can use it wherever I want. <br /><br />
 
-            <pre className="language-java rounded-md bg-gray-200 dark:bg-zinc-800 p-4 overflow-x-auto overflow-x-auto">
+            <pre className="language-java rounded-md bg-gray-200 dark:bg-zinc-800 p-4 overflow-x-auto">
                 <code>
                     {`@RestController
 @RequestMapping("/api/users")

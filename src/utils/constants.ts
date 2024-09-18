@@ -291,8 +291,16 @@ export const posts: Post[] = [
         id: "beans",
         title: "An Introduction to Beans in Spring",
         date: "08/21/2024",
-        category: "Spring",
+        category: ["Spring", "Java"],
         description: "A small friendly introduction to Beans and IoC in Spring",
         content: "Beans"
     },
+    {
+        id: "chapterone",
+        title: "Category Theory For Programmers - Chapter 1 Solutions",
+        date: "09/18/2024",
+        category: ["Category Theory", "Mathematics"],
+        description: "Suggested Solutions for the first chapter of Category Theory for Programmers",
+        content: "ChapterOne",
+    }
 ];
