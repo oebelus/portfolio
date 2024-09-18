@@ -16,7 +16,7 @@ export default function BlogCard({id, title, date, category, description}: BlogC
           <p className="text-base dark:text-violet-400 text-violet-800">{date}</p>
       </div>
       
-      <p className="text-base mt-2"><span className="text-violet-600">{"> "}</span>{description}</p>
+      <p className="text-md mt-2"><span className="text-violet-600">{"> "}</span>{description}</p>
 
       <div className="flex flex-row flex-wrap md:gap-2 gap-1 justify-end">
         {category.map((c, i) => (
