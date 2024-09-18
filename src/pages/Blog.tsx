@@ -18,13 +18,13 @@ export default function Blog() {
 
       <div className={`${styles.flexStart} w-full`}>
           <div className={`${styles.boxWidth}`}>
-            <div className={`${styles.boxWidth} mt-5 p-8 dark:text-gray-300`}>
-              <h3 className="text-xl dark:text-gray-300 text-black mb-5">
-                <span className="text-3xl text-violet-600">{"> "}</span>These are just the notes I take while I learn about a new topic, or just to have some fun (If you notice any inaccuracies in my post, please email me!).
+            <div className={`${styles.boxWidth} md:mt-4 mt-2 p-8 dark:text-gray-300`}>
+              <h3 className="md:text-xl text-lg dark:text-gray-300 text-black mb-5">
+                <span className="md:text-3xl text-xl text-violet-600">{"> "}</span>These are just the notes I take while I learn about a new topic, or just to have some fun (If you notice any inaccuracies in my post, please email me!).
               </h3>
-              <div className="relative flex py-4 items-center">
+              <div className="relative flex mt-8 md:mb-[-2%] mb-[-8%] items-center">
                 <div className="flex-grow border-t border-gray-400"></div>
-                <span className="text-3xl font-semibold flex-shrink mx-4 text-gray-400">
+                <span className="md:text-3xl text-2xl font-semibold flex-shrink mx-4 text-gray-400">
                   <span className="text-violet-600">{`>`}</span> My Articles:
                 </span>
                 <div className="flex-grow border-t border-gray-400"></div>
