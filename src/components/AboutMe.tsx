@@ -45,8 +45,6 @@ export default function AboutMe() {
                         }
                     </ul>
                 </div>
-
-                <p className="pl-0 md:pl-6 mt-8 text-lg dark:text-gray-300"><span className="text-violet-600">| </span>Currently an incoming SWE Fellow @ Headstater AI.</p>
             </div>
         </div>
     )

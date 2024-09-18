@@ -251,19 +251,19 @@ export const projects = [
 
 export const contacts = [
     {
-        id: "github",
-        name: "GitHub",
-        link: "https://github.com/oebelus" 
-    },
-    {
-        id: "linkedin",
-        name: "LinkedIn",
-        link: "https://www.linkedin.com/in/imane-el-fadil-el-idrissi-b528b31a6/" 
-    },
-    {
         id: "x",
         name: "X",
         link: "https://twitter.com/oebelus" 
+    },
+    {
+        id: "email",
+        name: "Email",
+        link: "mailto:imaneelfadilelidrissi@gmail.com" 
+    },
+    {
+        id: "github",
+        name: "GitHub",
+        link: "https://github.com/oebelus" 
     },
     {
         id: "leetcode",
@@ -271,14 +271,14 @@ export const contacts = [
         link: "https://leetcode.com/u/oebelus/" 
     },
     {
+        id: "linkedin",
+        name: "LinkedIn",
+        link: "https://www.linkedin.com/in/imane-el-fadil-el-idrissi-b528b31a6/" 
+    },
+    {
         id: "hackerrank",
         name: "HackerRank",
         link: "https://www.hackerrank.com/profile/oebelus" 
-    },
-    {
-        id: "email",
-        name: "Email",
-        link: "mailto:imaneelfadilelidrissi@gmail.com" 
     },
 ]
 
