@@ -54,7 +54,7 @@ compose f g = \\x -> f (g x)`}
         In C#
         <pre className='language-csharp rounded-md bg-gray-200 dark:bg-zinc-800 p-4 overflow-x-auto'>
             <code>
-                {`Func<T, T> Composition<T>(Func<T, T> f, Func<T, T> g) => x => f(g(x));`}
+                {`Func<T, T> Compose<T>(Func<T, T> f, Func<T, T> g) => x => f(g(x));`}
             </code>
         </pre><br />
         <p className='italic'><span className='font-bold text-violet-400'>3.</span>  Write a program that tries to test that your composition function respects identity.</p>
