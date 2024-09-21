@@ -21,20 +21,20 @@ export const navLinks = [
 
 export const projects = [
     {
-        id: "expenses",
-        name: "Expenses Tracker",
-        description: "Expense Tracker is a simple and efficient full stack web application that helps you keep track of your spending. With a user-friendly interface, you can easily log your expenses, categorize them, and see a detailed history. The app provides insights into your financial habits and helps you manage your budget effectively.",
-        github: "https://github.com/oebelus/expensesTracker?tab=readme-ov-file",
-        technologies: ["HTML 5", "Tailwind", "TypeScript", "React", "Chart.js", "Node.js", "Express.js", "MongoDB", "JWT"],
-        features: ["User Authentication.", "Expenses Logging: Add new expenses with details such as date, category, description, and amount.", "Expenses Categories, History and Summary.", "Handy search and filter options", "Responsive Design"]
-    },
-    {
         id: "vm",
         name: "Stack-Based Virtual Machine",
         description: "The Stack-Based Virtual Machine (SVM) is a Turing Complete virtual machine created using C#. It's designed to handle various tasks like arithmetic operations, manipulating stacks, controlling flow, and managing memory.",
         github: "https://github.com/oebelus/stackVM",
         technologies: ["C#"],
         features: ["Bytecode Interpretation: Executes bytecode instructions.", "Mnemonics Execution: Human-readable mnemonics can be converted to bytecode for execution.", "Control Flow: Supports jump and conditional jump instructions.", "Memory Operations: Load and store values in memory."]
+    },
+    {
+        id: "expenses",
+        name: "Expenses Tracker",
+        description: "Expense Tracker is a simple and efficient full stack web application that helps you keep track of your spending. With a user-friendly interface, you can easily log your expenses, categorize them, and see a detailed history. The app provides insights into your financial habits and helps you manage your budget effectively.",
+        github: "https://github.com/oebelus/expensesTracker?tab=readme-ov-file",
+        technologies: ["HTML 5", "Tailwind", "TypeScript", "React", "Chart.js", "Node.js", "Express.js", "MongoDB", "JWT"],
+        features: ["User Authentication.", "Expenses Logging: Add new expenses with details such as date, category, description, and amount.", "Expenses Categories, History and Summary.", "Handy search and filter options", "Responsive Design"]
     },
     {
         id: "bf",
@@ -200,6 +200,22 @@ export const projects = [
         ],
     },
     {
+        "id": "ecommerce-api",
+        "name": "Spring eCommerce API",
+        "description": "A RESTful API for managing products, categories, images, and a shopping cart, built with Spring Boot.",
+        "github": "https://github.com/oebelus/EcomSpring",
+        "features": [
+            "Product management with CRUD operations.",
+            "Image upload and download functionality.",
+            "Filter products by category, brand, and name.",
+            "Retrieve all categories of products.",
+            "Basic shopping cart management."
+        ],
+        "technologies": [
+            "Java", "Spring Boot", "Hibernate", "Postman", "MySQL/PostgreSQL", "JUnit"
+        ]
+    },
+    {
         id: "pantry",
         name: "Inventory Management Application",
         description: "Meet the Inventory Management App, your go-to tool for keeping your product inventory in check! With an easy-to-use interface, you can track, filter, and organize your products effortlessly.",
@@ -228,7 +244,7 @@ export const projects = [
             "Customizable and Scalable."
         ],
         technologies: [
-             "Java", "Spring Boot", "MySQL", "Tailwind CSS", "Vanilla TypeScript", "OpenAI GPT", "Groq API"
+             "Java", "Spring Boot", "MySQL", "Tailwind CSS", "TypeScript", "OpenAI GPT", "Groq API"
         ],
     },
     {
@@ -246,7 +262,7 @@ export const projects = [
         technologies: [
              "Three.js", "TypeScript", "TWEEN.JS"
         ],
-    }
+    },
 ]
 
 export const contacts = [
