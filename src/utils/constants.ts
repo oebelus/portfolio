@@ -200,19 +200,19 @@ export const projects = [
         ],
     },
     {
-        "id": "ecommerce-api",
-        "name": "Spring eCommerce API",
-        "description": "A RESTful API for managing products, categories, images, and a shopping cart, built with Spring Boot.",
-        "github": "https://github.com/oebelus/EcomSpring",
-        "features": [
+        id: "ecommerce-api",
+        name: "Spring eCommerce API",
+        description: "A RESTful API for managing products, categories, images, and a shopping cart, built with Spring Boot.",
+        github: "https://github.com/oebelus/EcomSpring",
+        features: [
             "Product management with CRUD operations.",
             "Image upload and download functionality.",
             "Filter products by category, brand, and name.",
             "Retrieve all categories of products.",
             "Basic shopping cart management."
         ],
-        "technologies": [
-            "Java", "Spring Boot", "Hibernate", "Postman", "MySQL/PostgreSQL", "JUnit"
+        technologies: [
+            "Java", "Spring Boot", "Hibernate", "Postman", "MySQL"
         ]
     },
     {
