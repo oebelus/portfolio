@@ -3,7 +3,8 @@ import { getTheme } from "../utils/theme";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function Theme() {
+
+export default function Theme({isBlog}: {isBlog: boolean}) {
     const [theme, setTheme] = useState<string>(getTheme());
 
     const handleThemeSwitch = () => {
@@ -23,7 +24,7 @@ export default function Theme() {
     return (
         <button 
             onClick={handleThemeSwitch} 
-            className="mt-2 text-2xl"
+            className={`text-2xl md:absolute mt-2 bottom-5 right-5 ${isBlog ? "top-3" : ""}`}
         >
             {theme === "dark" ? (
                 <FontAwesomeIcon className="rounded-full p-1 dark:text-gray-300 transition-all hover:text-yellow-300" icon={faSun} />

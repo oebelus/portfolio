@@ -16,6 +16,10 @@ export const navLinks = [
     {
         id: "misc",
         name: "misc;"
+    },
+    {
+        id: "contact",
+        name: "contact_me;"
     }
 ]
 
@@ -269,33 +273,45 @@ export const contacts = [
     {
         id: "x",
         name: "X",
-        link: "https://twitter.com/oebelus" 
+        link: "https://twitter.com/oebelus",
+        image: "https://img.icons8.com/?size=100&id=fJp7hepMryiw&format=png&color=000000" 
     },
     {
         id: "email",
         name: "Email",
-        link: "mailto:imaneelfadilelidrissi@gmail.com" 
+        link: "mailto:imaneelfadilelidrissi@gmail.com",
+        image: "https://img.icons8.com/?size=100&id=447&format=png&color=000000"
     },
     {
         id: "github",
         name: "GitHub",
-        link: "https://github.com/oebelus" 
+        link: "https://github.com/oebelus",
+        image: "https://img.icons8.com/?size=100&id=v551nqGeHhGn&format=png&color=000000"
     },
     {
         id: "leetcode",
         name: "LeetCode",
-        link: "https://leetcode.com/u/oebelus/" 
+        link: "https://leetcode.com/u/oebelus/",
+        image: ""
     },
     {
         id: "linkedin",
         name: "LinkedIn",
-        link: "https://www.linkedin.com/in/imane-el-fadil-el-idrissi-b528b31a6/" 
+        link: "https://www.linkedin.com/in/imane-el-fadil-el-idrissi-b528b31a6/",
+        image: "https://img.icons8.com/?size=100&id=447&format=png&color=000000"
     },
     {
         id: "hackerrank",
         name: "HackerRank",
-        link: "https://www.hackerrank.com/profile/oebelus" 
+        link: "https://www.hackerrank.com/profile/oebelus",
+        image: "./hackerrank.svg"
     },
+    {
+        id: "tumblr",
+        name: "Tumblr",
+        link: "https://oebelus.tumblr.com/",
+        image: "https://img.icons8.com/?size=100&id=62153&format=png&color=000000"
+    }
 ]
 
 export const builds = ["Dynamic and responsive websites, and full-stack applications (MERN, Spring/React).", "Custom solutions using various programming languages.", "3D visualizations with Three.js.", "Command-line tools and utilities."]
@@ -319,5 +335,219 @@ export const posts: Post[] = [
         description: "A small friendly introduction to Beans and IoC in Spring",
         content: "Beans"
     },
-    
 ];
+
+export const misc = [
+    {
+        id: "drawings",
+        name: "Drawings Gallery",
+        description: "A collection of my drawings and paintings" 
+    },
+    // {
+    //     id: "resources",
+    //     name: "Resources",
+    //     description: "A collection of resources I stumble upon every day"
+    // }
+]
+
+export const images = [
+    {
+        link: "velociraptor.jpg",
+        name: "Velociraptor",
+        description: "Velociraptor is one of my favourite dinosaurs, I have learned to like the feathered version the hard way ;)",
+        date: "Sep 26, 2024",
+        topics: ["Dinosaurs", "Animal"]
+    },
+    {
+        link: "carnotaurus.jpg",
+        name: "Carnotaurus",
+        description: "Carnotaurus",
+        date: "Sep 15, 2024",
+        topics: ["Dinosaurs", "Animal"]
+    },
+    {
+        link: "godzilla.jpg",
+        name: "Godzilla",
+        description: "Godzilla",
+        date: "May 12, 2024",
+        topics: ["Godzilla"]
+    },
+    {
+        link: "pseudoceros.jpg",
+        name: "Pseudoceros Dimidiatus",
+        description: "Pseudoceros Dimidiatus is a hermaphrodite flatworm that may be found in the Indian and Western Pacific ocean, in coral reefs. When two flat worms mate, they fight over who gets to fertilize and who gets to be fertilized. The winner gets to play the role of the male, fertilizing the other.",
+        date: "2020",
+        topics: ["Animal"]
+    },
+    {
+        link: "amphiprion.jpg",
+        name: "Amphiprion Ocellaris",
+        description: "Amphiprion Ocellaris is Nemo :3",
+        date: "2020",
+        topics: ["Animal"]
+    },
+    {
+        link: "sandman.jpg",
+        name: "Morpheus",
+        description: "Morpheus, the sandman",
+        date: "Oct 1, 2023",
+        topics: ["Comics"]
+    },
+    {
+        link: "madara.jpg",
+        name: "Madara Uchiha from Naruto",
+        description: "Madara Uchiha from Naruto",
+        date: "2018",
+        topics: ["Anime"]
+    },
+    {
+        link: "beetle.jpg",
+        name: "A green beetle",
+        description: "I forgot the name of the beetle, I have to look it up again :D",
+        date: "2020",
+        topics: ["Insects"]
+    },
+    {
+        link: "bird.jpg",
+        name: "Grey-headed Bristlebill",
+        description: "Grey-headed Bristlebill",
+        date: "2020",
+        topics: ["Animal", "Birds"]
+    },
+    {
+        link: "doodle.jpg",
+        name: "Doodle",
+        description: "Doodle",
+        date: "Sep 14, 2024",
+        topics: ["Animal"]
+    },
+    {
+        link: "pou.jpg",
+        name: "Pou",
+        description: "Pou",
+        date: "2023",
+        topics: ["Pets", "Digital"]
+    },
+    {
+        link: "piano.jpg",
+        name: "Piano",
+        description: "Piano en flammes",
+        date: "2019",
+        topics: ["Music"]
+    },
+    {
+        link: "dancer.jpg",
+        name: "Dancer",
+        description: "Dancer",
+        date: "2020",
+        topics: []
+    },
+    {
+        link: "cygne.jpg",
+        name: "Un cygne échoué sur un rivage perdu",
+        description: "A swan washed up on a lost shore",
+        date: "2020",
+        topics: ["Animal", "Bird"]
+    },
+    {
+        link: "brain.jpg",
+        name: "Brain",
+        description: "Brain",
+        date: "2023",
+        topics: ["Anatomy", "Digital"]
+    },
+    {
+        link: "hippocampus.jpg",
+        name: "Hippocampus",
+        description: "Hippocampus",
+        date: "2023",
+        topics: ["Anatomy", "Digital"]
+    },
+    {
+        link: "mms.jpg",
+        name: "M&M's",
+        description: "M&M's",
+        date: "2020",
+        topics: ["Food", "3D"]
+    },
+    {
+        link: "kaneki.jpg",
+        name: "Kaneki from Tokyo Ghoul",
+        description: "Kaneki from Tokyo Ghoul",
+        date: "2017",
+        topics: ["Anime"]
+    },
+    {
+        link: "migi.jpg",
+        name: "Migi from Parasyte",
+        description: "Migi from Parasyte",
+        date: "2016",
+        topics: ["Anime"]
+    },
+    {
+        link: "turtle.jpg",
+        name: "A stack of animals",
+        description: "Snail. Frog. Turtle.",
+        date: "2022",
+        topics: ["Animal"]
+    },
+]
+
+export const songs = [
+    {
+        id: 0,
+        link: "songs/Igorrr_Tout_Petit_Moineau.mp3",
+        name: "Tout Petit Moineau",
+        artist: "Igorrr",
+        image: "igorrr.jpg"
+    },
+    {
+        id: 1,
+        link: "songs/My_Dying_Bride_Your_Broken_Shore.mp3",
+        name: "Your Broken Shore",
+        artist: "My Dying Bride",
+        image: "dying_bride.jpg"
+    },
+    {
+        id: 2,
+        link: "songs/SABATON_The_Attack_of_the_Dead_Men.mp3",
+        name: "The Attack of the Dead Men",
+        artist: "Sabaton",
+        image: "sabaton.jpg"
+    },
+    {
+        id: 3,
+        link: "songs/Hands_Dreamsearch.mp3",
+        name: "Dreamsearch",
+        artist: "Hands",
+        image: "hands.jpg"
+    },
+    {
+        id: 4,
+        link: "songs/Eluveitie_Thousandfold.mp3",
+        name: "Thousandfold",
+        artist: "Eluveitie",
+        image: "eluveitie.jpg"
+    },
+    {
+        id: 5,
+        link: "songs/Forget_Not.mp3",
+        name: "Forget Not",
+        artist: "Ne Obliviscaris",
+        image: "ne_obliviscaris.jpg"
+    },
+    {
+        id: 6,
+        link: "songs/Ocean_of_Grief_Spiritual_Fortress.mp3",
+        name: "Spiritual Fortress",
+        artist: "Ocean of Grief",
+        image: "ocean_of_grief.jpg"
+    },
+    {
+        id: 7,
+        link: "songs/Wintersun_Land_of_Snow_and_Sorrow.mp3",
+        name: "Land of Snow and Sorrow",
+        artist: "Wintersun",
+        image: "wintersun.jpg"
+    }
+]

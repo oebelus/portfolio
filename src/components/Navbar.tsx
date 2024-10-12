@@ -1,28 +1,40 @@
+import { Link } from 'react-router-dom';
 import { navLinks } from '../utils/constants';
 import Theme from './Theme';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
-export default function Navbar({clicked}: {clicked: string}) {
+export default function Navbar({clicked, setClicked}: {clicked: string, setClicked: (e: string) => void}) {
     const [toggle, setToggle] = useState(false);
 
+    useEffect(() => {
+    console.log(clicked);
+  }, [clicked])
+
     return (
-        <nav className="dark:bg-[#2D2E32] z-[99] p-6 inset-x-0 top-0 flex justify-between items-center py-6 bg-transparent w-full">
-            <h1 className="text-4xl font-semibold text-zinc-800 dark:text-gray-300 mr-5"><span className='text-violet-600'>{`<`}</span>oebelus<span className='text-violet-600'>{`/>`}</span></h1>
-            <div className="hidden md:flex flex-1 justify-end items-center">
-                <ul className="list-none flex justify-end items-center flex-1">
+        <nav className="dark:bg-[#2D2E32] z-[99] p-6 inset-x-0 top-0 flex md:flex-col md:gap-8 justify-between items-center py-6 bg-transparent w-full">
+            <div>
+                <a href="/">
+                    <h1 className="whitespace-nowrap text-3xl font-semibold text-zinc-800 dark:text-gray-300 mr-5"><span className='text-violet-600'>{`<`}</span>oebelus<span className='text-violet-600'>{`/>`}</span></h1>
+                </a>
+                <img src="https://img.icons8.com/?size=100&id=447&format=" alt="" />
+            </div>
+            <div className="hidden md:flex flex-1 justify-end items-center mt-16">
+                <ul className="list-none flex flex-col md:gap-6 justify-end flex-1">
                     {navLinks.map((nav, index) => (
                         <li key={index} className="mr-10">
-                            <a 
-                                href={nav.id == "" ? '/' : nav.id}
-                                className={`font-poppins font-normal cursor-pointer text-xl hover:text-violet-600 transition-all ${clicked == nav.name ? "text-violet-600" : "dark:text-gray-300 "}`}
+                            <Link 
+                                to={nav.id === "" ? '/' : nav.id}
+                                onClick={() => setClicked(nav.name)} // Update clicked state
+                                className={`font-poppins font-normal cursor-pointer text-xl hover:text-violet-600 transition-all ${clicked === nav.name ? "text-violet-600" : "dark:text-gray-300"}`}
                             >
                                 {nav.name}
-                            </a>
+                            </Link>
                         </li>
                     ))}
                 </ul>
-
-                <Theme />
+                <div>
+                    <Theme isBlog={false} />
+                </div>
             </div>
 
 
@@ -34,7 +46,7 @@ export default function Navbar({clicked}: {clicked: string}) {
                         menu
                     </span>
                 </div>
-                <Theme/>
+                <Theme isBlog={false}/>
             </div>
 
             {/* Background Overlay */}

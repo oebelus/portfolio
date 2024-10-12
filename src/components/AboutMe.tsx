@@ -8,7 +8,7 @@ export default function AboutMe() {
                 <h1 className="text-6xl font-bold relative w-[max-content] font-mono 
                     before:absolute before:inset-0 before:animate-typewriter before:bg-white before:dark:bg-[#2D2E32] 
                     after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-violet-400">Imane,</h1>
-                <span className="text-2xl">A Programmer To Be;</span>
+                <span className="text-2xl">Computer Science Enthusiast;</span>
             </div>
             <div className="mt-10">
                 <div className="relative flex py-5 items-center">
@@ -23,7 +23,9 @@ export default function AboutMe() {
                     <span className="text-violet-400"> {getDate().day}</span> days old.
                 </p>
                 <br/>
-                <p className="pl-0 md:pl-6 text-lg dark:text-gray-300"><span className="text-violet-600">| </span>I enjoy problem solving and learning programming concepts.</p>
+                <p className="pl-0 md:pl-6 text-lg dark:text-gray-300"><span className="text-violet-600">| </span>I enjoy problem solving and learning programming concepts. I also quickly pick up new technologies.</p>
+                <br/>
+                <p className="pl-0 md:pl-6 text-lg dark:text-gray-300"><span className="text-violet-600">| </span>I am interested in many of things (I wish I had more than 24 hours a day to just learn everything I want XD) and I wanna learn more about the theory of computation and Algebra.</p>
                 <br/>
                 <p className="pl-0 md:pl-6 text-lg dark:text-gray-300"><span className="text-violet-600">| </span>If I am not coding, I will definitely be:</p><br/>
             

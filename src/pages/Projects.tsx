@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Navbar from "../components/Navbar";
 import Project from "../components/Project";
 import { projects } from "../utils/constants";
 import styles from "../utils/style";
@@ -15,15 +14,10 @@ export default function Projects() {
   );
 
   return (
-    <div className='dark:bg-[#2D2E32] min-h-screen'>
+    <div>
       <Helmet>
         <title>projects;</title>
       </Helmet>
-      <div className={`${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Navbar clicked="projects;" />
-        </div>
-      </div>
 
       <div className={`${styles.flexStart} w-full`}>
         <div className={`${styles.boxWidth}`}>
