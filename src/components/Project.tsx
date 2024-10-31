@@ -10,9 +10,9 @@ interface ProjectProps {
 
 export default function Project({id, name, features, description, github, technologies, demo}: ProjectProps) {
   return (
-    <div id={id} className="p-4 border-b border-gray-300 transition-all duration-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:border-gray-600 mt-6">
+    <div id={id} className="border rounded-lg p-6 shadow-md dark:border-gray-700 border-b border-gray-300 transition-all duration-300 hover:bg-gray-100 dark:hover:bg-gray-700 mt-6">
         <div className="flex justify-between items-center mb-4">
-            <h2 className="text-lg font-semibold">{name}</h2>
+            <h2 className="text-xl font-semibold">{name}</h2>
             <div className="flex gap-4">
                 {
                     demo ? 
@@ -27,7 +27,7 @@ export default function Project({id, name, features, description, github, techno
                 </button>
             </div>
         </div>
-        <div className="mb-2 text-sm flex-1 ml-4">
+        <div className="mb-2 text-lg flex-1 ml-4">
             <p className="">{description}</p><br/>
             <p>{`> `}Features:</p>
             <ul className="pl-10">
