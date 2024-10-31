@@ -18,7 +18,7 @@ export default function Blog() {
             </h3>
             <div className="relative flex mt-8 md:mb-[-2%] mb-[-8%] items-center">
               <div className="flex-grow border-t border-gray-400"></div>
-              <span className="md:text-3xl text-2xl font-semibold flex-shrink mx-4 text-gray-400">
+              <span className="md:text-3xl text-2xl font-semibold flex-shrink mx-4 dark:text-gray-400">
                 <span className="text-violet-600">{`>`}</span> My Articles:
               </span>
               <div className="flex-grow border-t border-gray-400"></div>
