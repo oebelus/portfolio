@@ -295,6 +295,7 @@ export const projects = [
     description:
       "A Three.js-based solar system simulation showcasing the planets and their orbits. ",
     github: "https://github.com/oebelus/solarSystem",
+    demo: "https://oebelus.github.io/solarSystem/",
     features: [
       "Planetary Visualization: Displays planets with textures and accurate scaling.",
       "Interactive Controls: Allows user interaction to explore the solar system with orbit controls.",
