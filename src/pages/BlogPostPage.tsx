@@ -1,10 +1,10 @@
 import { Helmet } from "react-helmet-async";
 import { useParams } from "react-router-dom";
-import { posts } from "../../utils/constants";
-import GoBack from "../../components/GoBack";
-import Theme from "../../components/Theme";
-import styles from "../../utils/style";
-import BlogPost from "../../components/blog/BlogPost";
+import { posts } from "../utils/constants";
+import GoBack from "../components/GoBack";
+import Theme from "../components/Theme";
+import styles from "../utils/style";
+import BlogPost from "../components/blog/BlogPost";
 
 export default function BlogPostPage() {
     const { postId } = useParams();

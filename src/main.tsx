@@ -4,9 +4,9 @@ import { createBrowserRouter, createRoutesFromElements,Route, RouterProvider } f
 import {About, Blog, Misc, Projects } from './utils/imports'
 import App from './App.tsx'
 import { HelmetProvider } from 'react-helmet-async';
-import BlogPostPage from './pages/blog/BlogPostPage.tsx';
 import Contact from './pages/Contact.tsx';
 import Drawings from './pages/Drawings.tsx';
+import BlogPostPage from './pages/BlogPostPage.tsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(

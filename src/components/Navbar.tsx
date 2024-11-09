@@ -23,7 +23,7 @@ export default function Navbar({clicked, setClicked}: {clicked: string, setClick
                     {navLinks.map((nav, index) => (
                         <li key={index} className="mr-10">
                             <Link 
-                                to={nav.id === "" ? '/' : nav.id}
+                                to={nav.id === "my_notes" ? 'https://oebelus.github.io/my_notes/' : nav.id}
                                 onClick={() => setClicked(nav.name)} // Update clicked state
                                 className={`font-poppins font-normal cursor-pointer text-xl hover:text-violet-600 transition-all ${clicked === nav.name ? "text-violet-600" : "dark:text-gray-300"}`}
                             >

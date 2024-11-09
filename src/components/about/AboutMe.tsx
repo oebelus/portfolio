@@ -1,5 +1,5 @@
 import { builds, hobbies } from "../../utils/constants";
-import { getDate } from "../../utils/functions";
+import { getDate } from "../../utils/Date";
 
 export default function AboutMe() {
   const { year, month, day } = getDate();
