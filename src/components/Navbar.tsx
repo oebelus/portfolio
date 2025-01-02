@@ -67,6 +67,7 @@ export default function Navbar({clicked, setClicked}: {clicked: string, setClick
                     navLinks.map((nav, index) => (
                         <li key={nav.id}>
                             <a 
+                                target='_blank'
                                 href={nav.id == "" ? 'https://oebelus.github.io/my_notes/#/my_notes' : nav.id}
                                 className={`cursor-pointer dark:text-gray-300 text-[16px] hover:text-violet-600 transition-all ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'} dark:text-white`}>
                                 {nav.name}
