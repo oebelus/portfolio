@@ -15,7 +15,7 @@ export default function BlogPostPage() {
     }
 
     return (
-        <div className='dark:bg-[#2D2E32] min-h-screen overflow-hidden'>
+        <div className='dark:bg-[#11181A] min-h-screen overflow-hidden'>
             <Helmet>
                 <title>{post.title}</title>
             </Helmet>

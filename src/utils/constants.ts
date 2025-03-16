@@ -14,6 +14,10 @@ export const navLinks = [
     name: "blog;",
   },
   {
+    id: "now",
+    name: "now;",
+  },
+  {
     id: "my_notes",
     name: "my_notes;",
   },
@@ -21,6 +25,10 @@ export const navLinks = [
     id: "misc",
     name: "misc;",
   },
+  // {
+  //   id: "resume",
+  //   name: "resume;",
+  // },
   {
     id: "contact",
     name: "contact_me;",
@@ -132,7 +140,7 @@ export const skills: SkillsType = {
     "SQL",
     "Ruby",
   ],
-  Databases: ["MySQL", "MongoDB"],
+  Databases: ["MySQL", "PostgreSQL", "MongoDB"],
   "Web Development": [
     "HTML",
     "CSS",
@@ -161,6 +169,21 @@ export const projects = [
       "Control Flow: Supports jump and conditional jump instructions.",
       "Memory Operations: Load and store values in memory.",
     ],
+  },
+  {
+    id: "rshell",
+    name: "A Shell in Rust",
+    description:
+      "A REPL POSIX compliant shell in Rust that's capable of interpreting shell commands, running external programs and some builtin commands.",
+    github: "https://github.com/oebelus/rubik-s",
+    features: [
+      "Builtins: exit, echo, cat, type, cd, pwd.",
+      "Navigation.",
+      "Quoting.",
+      "Redirection.",
+      "Autocompletion.",
+    ],
+    technologies: ["Rust"],
   },
   {
     id: "expenses",
@@ -278,20 +301,6 @@ export const projects = [
       "JSON Storage: Saves race data to JSON files for later use.",
     ],
     technologies: ["Python", "Discord.py", "BeautifulSoup", "Selenium"],
-  },
-  {
-    id: "file_organizer",
-    name: "File Organizer",
-    description:
-      "A Python-based file organizer that helps manage and sort files into directories based on user commands.",
-    github: "https://github.com/oebelus/files_manager",
-    features: [
-      "File Sorting: Organize files into directories based on user-defined criteria.",
-      "Directory Management: View, rename, and delete directories.",
-      "File Operations: Read PDF files, rename, delete, move files, and display a list of available commands.",
-      "Manager Feature: Groups files by common keywords and moves them to a specified directory.",
-    ],
-    technologies: ["Python"],
   },
   {
     id: "solar_system",
@@ -464,12 +473,6 @@ export const contacts = [
     image: "",
   },
   {
-    id: "linkedin",
-    name: "LinkedIn",
-    link: "https://www.linkedin.com/in/imane-el-fadil-el-idrissi-b528b31a6/",
-    image: "https://img.icons8.com/?size=100&id=447&format=png&color=000000",
-  },
-  {
     id: "hackerrank",
     name: "HackerRank",
     link: "https://www.hackerrank.com/profile/oebelus",
@@ -485,7 +488,6 @@ export const contacts = [
 
 export const builds = [
   "Dynamic and responsive websites, and full-stack applications (MERN, Spring/React).",
-  "Custom solutions using various programming languages.",
   "3D visualizations with Three.js.",
   "Command-line tools and utilities.",
 ];
@@ -496,6 +498,14 @@ export const hobbies = [
   'Watching: ["Movie", "Series", "Anime", "YouTube"].',
   'Reading: ["Manga", "Comics", "A Book"].',
   "Drawing.",
+];
+
+export const facts = [
+  "My favorite numbers are 7 and 17.",
+  "I love dinosaurs (it's a shame no one asks about favorite dinosaurs anymore).",
+  "I'm a huge fan of construction vehicles and trucks.",
+  "My major has nothing to do with Computer Science.",
+  "I collect toys, shells, rocks...",
 ];
 
 export const posts: Post[] = [
@@ -524,11 +534,6 @@ export const misc = [
     name: "Drawings Gallery",
     description: "A collection of my drawings and paintings",
   },
-  // {
-  //     id: "resources",
-  //     name: "Resources",
-  //     description: "A collection of resources I stumble upon every day"
-  // }
 ];
 
 export const images = [
@@ -735,3 +740,38 @@ export const songs = [
     image: "wintersun.jpg",
   },
 ];
+
+export const currently = {
+  cs: {
+    verb: "learning",
+    icon: "book",
+    items: ["Rust", "Haskell"],
+  },
+  courses: {
+    verb: "doing",
+    icon: "📚",
+    items: [
+      "The OSSU curriculum: currently doing the Systematic Program Design",
+      "Cyfrin Updraft: Foundry Fundamentals",
+    ],
+  },
+  games: {
+    verb: "playing",
+    icon: "game",
+    items: ["Detroit: Become Human"],
+  },
+  series: {
+    verb: "watching",
+    icon: "movie",
+    items: ["Severance", "Westworld", "Ben 10"],
+  },
+  books: {
+    verb: "reading",
+    icon: "book",
+    items: [
+      "Logically Fallacious",
+      "Crafting Interpreters",
+      "Category Theory for Programmers",
+    ],
+  },
+};

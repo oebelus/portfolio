@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, createRoutesFromElements,Route, RouterProvider } from "react-router-dom";
-import {About, Blog, Misc, Projects } from './utils/imports'
+import {About, Blog, Misc, Now, Projects, Resume } from './utils/imports'
 import App from './App.tsx'
 import { HelmetProvider } from 'react-helmet-async';
 import Contact from './pages/Contact.tsx';
@@ -15,6 +15,8 @@ const router = createBrowserRouter(
       <Route path='projects' element={<Projects/>} />
       <Route path='blog' element={<Blog/>} />
       <Route path='blog/:postId' element={<BlogPostPage/>} />
+      <Route path='resume' element={<Resume/>} />
+      <Route path='now' element={<Now/>} />
       <Route path='misc' element={<Misc/>} />
       <Route path='misc/drawings' element={<Drawings/>} />
       <Route path='contact' element={<Contact/>} />

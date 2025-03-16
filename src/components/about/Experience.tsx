@@ -7,7 +7,7 @@ export default function Experience() {
         {/* Section Divider */}
         <div className="relative flex items-center py-5">
           <div className="flex-grow border-t border-gray-400" />
-          <span className="mx-4 flex-shrink text-3xl font-semibold">
+          <span className="mx-4 flex-shrink text-2xl font-semibold">
             <span className="text-violet-600">&gt;</span> Experience:
           </span>
           <div className="flex-grow border-t border-gray-400" />

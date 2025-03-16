@@ -17,7 +17,7 @@ function App() {
   const noSidebarRoute = location.pathname.startsWith('/blog/') || location.pathname.startsWith('/misc/');
 
   return (
-    <div className="dark:bg-[#2D2E32] md:flex min-h-screen">
+    <div className="dark:bg-[#11181A] md:flex min-h-screen">
       {!noSidebarRoute && 
         <div className="md:fixed top-0 left-0 h-full md:w-64 md:z-50">
           <Navbar clicked={clicked} setClicked={setClicked} />

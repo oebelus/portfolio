@@ -7,7 +7,7 @@ import MusicPlayer from "../components/MusicPlayer";
 export default function Misc() {
 
     return (
-        <div className='dark:bg-[#2D2E32] min-h-screen'>
+        <div className='dark:bg-[#11181A] min-h-screen'>
             <Helmet>
                 <title>misc;</title>
             </Helmet>

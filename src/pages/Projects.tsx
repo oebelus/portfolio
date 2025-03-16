@@ -4,7 +4,7 @@ import { projects } from "../utils/constants";
 import styles from "../utils/style";
 import { Helmet } from "react-helmet-async";
 
-const languages = ["All", "C", "C#", "Python", "Java", "TypeScript"]; // Add languages as needed
+const languages = ["All", "C", "C#", "Python", "Java", "TypeScript", "Rust"];
 
 export default function Projects() {
   const [selectedLanguage, setSelectedLanguage] = useState("All");

@@ -11,14 +11,17 @@ export default function Navbar({clicked, setClicked}: {clicked: string, setClick
   }, [clicked])
 
     return (
-        <nav className="dark:bg-[#2D2E32] z-[99] p-6 inset-x-0 top-0 flex md:flex-col md:gap-8 justify-between items-center py-6 bg-transparent w-full">
+        <nav className="dark:bg-[#11181A] z-[99] p-6 inset-x-0 top-0 flex md:flex-col md:gap-8 justify-between items-center py-6 bg-transparent w-full">
             <div>
                 <a href="/">
                     <h1 className="whitespace-nowrap text-3xl font-semibold text-zinc-800 dark:text-gray-300 mr-5"><span className='text-violet-600'>{`<`}</span>oebelus<span className='text-violet-600'>{`/>`}</span></h1>
                 </a>
                 <img src="https://img.icons8.com/?size=100&id=447&format=" alt="" />
             </div>
-            <div className="hidden md:flex flex-1 justify-end items-center mt-16">
+            
+            <img className='rounded-lg hidden md:block' src="ascii.png" alt="" />
+
+            <div className="hidden md:flex flex-1 justify-end items-center">
                 <ul className="list-none flex flex-col md:gap-6 justify-end flex-1">
                     {navLinks.map((nav, index) => (
                         <li key={index} className="mr-10">
